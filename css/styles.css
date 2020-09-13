@@ -30,6 +30,10 @@ img {
   height: auto;
 }
 
+.flexbox {
+  display: flex;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -306,7 +310,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
-  /* width: 22px; */
 }
 
 .form-input {
@@ -709,8 +712,14 @@ img {
   width: 231px;
 }
 
-.wrap-footer .link {
+.grid-contacts .link {
   color: var(--accent-rgba-color);
+  transition: color var(--transition);
+}
+
+.grid-contacts .link:hover,
+.grid-contacts .link:focus {
+  color: var(--accent-blue-color);
 }
 
 .logo-footer-marg {
@@ -727,8 +736,12 @@ img {
   line-height: 1.46;
 }
 
+.sec-action {
+  margin-right: 93px;
+}
+
 .call-to-action {
-  display: inline-block;
+  display: block;
   margin-bottom: 20px;
   color: var(--accent-white-color);
   font-size: 14px;
@@ -742,4 +755,37 @@ img {
 
 .social-link-footer .icon-social {
   fill: var(--accent-white-color);
+}
+
+.footer-flex-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.action-mail {
+  margin-right: 12px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: var(--secondary-bck-color);
+  color: var(--accent-rgba-color);
+}
+
+.action-mail::placeholder {
+  color: var(--accent-rgba-color);
+}
+
+.icon-telegramm {
+  fill: var(--accent-white-color);
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.btn-footer {
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  padding-right: 29px;
 }

@@ -403,9 +403,7 @@
             ><span class="white-text">Studio</span>
           </a>
           <address class="text white-text font-style grid-contacts">
-            <p class="address-marg address-line">
-              г. Киев, пр-т Леси Украинки, 26
-            </p>
+            <p class="address-marg">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="list">
               <li class="address-marg">
                 <a class="link" href="mailto:info@example.com"
@@ -463,6 +461,30 @@
             </li>
           </ul>
         </div>
+
+        <!-- Подпишитесь на рассылку-->
+
+        <form class="form-field">
+          <label for="action-mail">
+            <b class="call-to-action">Подпишитесь на рассылку</b>
+          </label>
+          <div class="footer-flex-form">
+            <input
+              class="action-mail"
+              type="mail"
+              id="action-mail"
+              name="mail"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="button btn-footer">
+              Подписаться
+              <svg class="icon-telegramm">
+                <use href="./images/symbol-defs.svg#icon-telegramm"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <!-- Бэкдроп и модальное окно -->

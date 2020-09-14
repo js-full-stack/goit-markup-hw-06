@@ -503,7 +503,13 @@
 
           <div class="form-field">
             <label class="form-label" for="name">Имя</label>
-            <input class="form-input" type="text" name="name" id="name" />
+            <input
+              class="form-input"
+              type="text"
+              name="name"
+              id="name"
+              autofocus
+            />
             <svg class="icon-form">
               <use href="./images/symbol-defs.svg#icon-name-form"></use>
             </svg>
@@ -537,12 +543,13 @@
           </div>
 
           <div class="form-checkbox">
-            <input type="checkbox" name="license" id="license" />
-            <label class="text" for="license"
-              >Соглашаюсь с рассылкой и принимаю
+            <label class="text label-check">
+              <input class="checkbox" type="checkbox" name="license" />
+              Соглашаюсь с рассылкой и принимаю
               <a class="license-link" href="">Условия договора</a></label
             >
           </div>
+
           <div class="button-submit">
             <button class="button" type="submit">Отправить</button>
           </div>

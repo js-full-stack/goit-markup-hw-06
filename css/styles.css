@@ -349,8 +349,6 @@ img {
 } */
 
 .form-comment {
-  display: flex;
-  align-items: center;
   margin-bottom: 25px;
   padding-left: 16px;
   padding-top: 12px;
@@ -392,7 +390,6 @@ img {
 
 .icon {
   margin-left: 14px;
-  display: inline-block;
   width: 16px;
   height: 15px;
   margin-right: 7px;
@@ -406,15 +403,6 @@ img {
   background-size: contain;
   background-origin: border-box;
 }
-/* 
-.label-check::before {
-  content: "";
-  display: inline-block;
-  background-image: url(../images/icon-check.svg);
-  background-color: red;
-  width: 12px;
-  height: 12px;
-} */
 
 .license-link {
   color: var(--accent-blue-color);

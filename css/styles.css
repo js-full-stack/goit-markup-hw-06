@@ -841,8 +841,8 @@ img {
 }
 
 .action-mail {
-  margin-right: 12px;
   padding-left: 16px;
+  margin-right: 12px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;

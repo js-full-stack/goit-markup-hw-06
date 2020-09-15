@@ -69,7 +69,7 @@
       <!-- 2-я секция - список преимуществ -->
       <section class="wrap-why-we">
         <div class="container">
-          <!-- <h2 class="hidden-title">Наши преимущества</h2> -->
+          <h2 class="hidden-title">Наши преимущества</h2>
           <ul class="list list-why-we">
             <li class="item icon-antenna">
               <h3 class="subtitle-why-we">Внимание к деталям</h3>
@@ -463,7 +463,6 @@
         </div>
 
         <!-- Подпишитесь на рассылку-->
-
         <form class="form-field js-speaker-form">
           <label for="action-mail">
             <b class="call-to-action">Подпишитесь на рассылку</b>
@@ -502,7 +501,7 @@
           <b class="form-caption">Оставьте свои данные, мы вам перезвоним</b>
 
           <div class="form-field">
-            <label class="form-label" for="name">Имя</label>
+            <label class="form-label" for="name"> Имя</label>
             <input
               class="form-input"
               type="text"
@@ -542,13 +541,14 @@
             ></textarea>
           </div>
 
-          <div class="form-checkbox">
-            <label class="text label-check">
-              <input class="checkbox" type="checkbox" name="license" />
-              Соглашаюсь с рассылкой и принимаю
-              <a class="license-link" href="">Условия договора</a></label
-            >
-          </div>
+          <label class="text label-check">
+            <input class="checkbox" type="checkbox" name="license" />
+            <svg class="icon">
+              <use href="./images/symbol-defs.svg#icon-check"></use>
+            </svg>
+            Соглашаюсь с рассылкой и принимаю&#160;
+            <a class="license-link" href="">Условия договора</a></label
+          >
 
           <div class="button-submit">
             <button class="button" type="submit">Отправить</button>
